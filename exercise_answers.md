@@ -99,7 +99,30 @@ cut -d " " -f2,3 species.txt | sort | uniq -c
 for numbers in {1..30}; do echo $numbers; done
 ```
 **Q16**
+
 or i in {000..20}; do echo hello > "Trial${i}.txt"; done
 ```
 
 **Q17**
+
+I got this output:
+
+expr: division by zero
+
+This means that bash does not allow division by zero
+
+**Q18**
+
+```
+command 2> error.txt 1> output.txt
+
+```
+
+**Q19**
+
+**Q20**
+
+```
+../../Fun_stuff/?
+
+```
